@@ -1,0 +1,4 @@
+Dai tempi misurati, ho compreso che l'implementazione del sort della libreria standard è ibrida ed è ovviamente la più ottimizzata. 
+Come soglia, da cui gli algoritmi quadratici smettono di esssere più veloci dei logaritmici ho individuato N = 30,35. (In particolare ho
+considerato quando il tempo dell'insertion sort inizia ad essere maggiore del quicksort). Nonostante ho trovato N = 30,35 nell'implementazione
+del quicksort ibrido ho scelto di usare l'insertion sort fino a N= 40.
